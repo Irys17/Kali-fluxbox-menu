@@ -7,7 +7,7 @@ Open a terminal
 
 $ git clone https://github.com/Irys17/Kali-fluxbox-menu.git
 
-$ cd Kali-fluxbox-menu-master
+$ cd Kali-fluxbox-menu
 
 $ mv ~/.fluxbox/menu ~/.fluxbox/menu.back
 
