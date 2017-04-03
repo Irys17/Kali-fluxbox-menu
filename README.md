@@ -11,4 +11,6 @@ $ cd Kali-fluxbox-menu
 
 $ mv ~/.fluxbox/menu ~/.fluxbox/menu.back
 
-$ cp menu ~/.fluxbox/
+$ mv menu ~/.fluxbox/
+
+$ cd ../ && rm Kali-fluxbox-menu
