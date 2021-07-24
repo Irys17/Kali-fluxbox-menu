@@ -1,18 +1,17 @@
 [begin] (blackarch menu)
 
     [submenu] (terminals)
-        [exec] (xterm (red\)) {xterm -bg black -fg red}
-        [exec] (xterm (green\)) {xterm -bg black -fg green}
-        [exec] (xterm (yellow\)) {xterm -bg black -fg yellow}
-        [exec] (xterm (white\)) {xterm -bg black -fg white}
         [exec] (Terminal) {gnome-terminal}
         [exec] (Konsole) {konsole}
+        [exec] (Terminator) {terminator}
+        [exec] (Default Terminal) {qterminal}
     [end]
 
     [submenu] (browsers)
         [exec] (firefox) {firefox}
         [exec] (chromium) {chromium}
         [exec] (nautilus) {nautilus}
+        [exec] (Tor) {torbrowser-launcher}
     [end]
 
     [submenu] (Text Editor)
